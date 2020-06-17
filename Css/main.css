@@ -1,0 +1,223 @@
+/*Спецификация*/
+
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+i{
+	font-size: 74px;
+}
+
+ul,li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+h1,h2{
+font-weight: 400; 
+color: #000;
+}
+.title{
+	padding-top: 86px;
+	text-align: center;
+	padding-bottom: 90px;
+}
+.title__main{
+font-size: 36px;
+}
+.title__text{
+font-size: 20px;
+}
+/*Блок 1*/
+.header {
+	color: #010101;
+	padding-top: 12px;
+	background: #FFCC00;
+		padding-bottom:205px;
+
+}
+
+.menu{
+	margin-top: 15px;
+
+}
+.menu__item{
+	margin: 0 30px;
+
+}
+.menu__item a{
+	font-size: 20px;
+	font-weight: 300;
+	color: #000;
+
+
+}
+
+.offer{
+		margin-top: 107px;
+}
+.offer__title{
+	
+
+
+		line-height: 37px;
+
+
+}
+.offer__text {
+	font-size: 20px;
+	/*margin-left: 144px;*/
+	line-height: 22px;
+	margin-top: 52px;
+	color: #3A3A3A;
+}
+.iphone {
+	display: block;
+	margin: 0 auto 225.5;
+	width:674px;
+}
+.icons__item {
+	margin-right: 40px;
+}
+.icons__item a {
+    color: black;
+    font-size: 42px;
+    transition: all 0.3s ease;
+}
+
+.icons__item a:hover {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+/*Второй экран*/
+
+.feature__icon{
+	font-size: 48px;
+	color: #FFCC00;
+	padding-bottom: 64px;
+	
+
+}
+#features{
+
+	background-color: #fff;
+		margin-top: 50px;
+}
+.feature__text{
+	color: #707070;
+	line-height: 20px;
+
+
+}
+.feature__icon {
+    font-size: 50px;
+    margin-right: 37px;
+    color:#FFCC00;
+}
+.feature {
+    padding-bottom: 50px;
+}
+
+/*Третий экран*/
+
+.touch{
+	background: #000000;
+	color: #fff;
+}
+.yellow{
+	color: #FFCC00;
+}
+.title__text{
+	color: #EFEFEF;
+	font-size: 16px;
+	margin-top: 30px;
+	line-height: 18px;
+}
+.form{
+text-align:center;
+
+}
+.form__input{
+	background: #fff;
+	font-size: 16pt;
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 5px;
+	width: 580px;
+	padding:10px 0;
+		border:0;
+		margin-right: 15px;
+		padding-left: 23px;
+		outline: none;
+}
+.form__btn{
+	font-family: 'PT Sans', sans-serif;
+	background: #FFCC00;
+	font-size: 16pt;
+	color: #fff;
+		border-radius: 5px;
+			padding:10px;
+	font-weight: 700;
+	width: 152px;
+	border:0;
+	text-align: center;
+			cursor:pointer
+
+}
+/*Футер*/
+.footer{
+	background: black;
+	padding: 70px 100px;
+}
+.credits{
+	color:white;
+	font-size: 16px;
+	text-align:center;
+	padding-top: 50px;
+	width: 150px;
+	margin:0 auto;
+}
+
+/*медиа-запросы*/
+@media screen and (max-width: 992px)
+{
+	.logo{
+		display: block;
+		margin: 0 auto;
+	}
+	.offer{
+		text-align: center;
+	}
+	.offer__text{
+		text-align: center;
+		margin: 0px auto;
+	}
+	.offer__title{
+		text-align: center;
+		margin: 20px  auto;
+
+	}
+	.form__input{
+		margin-right: 0;
+		width: 100%;
+	}
+	.form__btn{
+		margin-top: 10px;
+		width: 100%;
+	}
+	.iphone{
+				width: 100%;
+	}
+	.menu{
+		flex-direction: column;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.icons{
+    justify-content: center;
+	}
+
+}
